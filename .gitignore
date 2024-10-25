@@ -31,3 +31,8 @@
 *.out
 *.app
 *.bak
+/bin
+/obj
+Resources/align_text_center.png
+Resources/exit.png
+Resources/file_yellow_open.png
