@@ -7,3 +7,6 @@
  * ansehen
  * grübeln
  
+ # Quellen
+enthält Toolbar Icons 
+"made available under the terms of the MIT License. Copyright (c) 2010 Florian Haag"

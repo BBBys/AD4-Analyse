@@ -36,23 +36,14 @@
       this.ofdDatei = new System.Windows.Forms.OpenFileDialog();
       this.label1 = new System.Windows.Forms.Label();
       this.lStart = new System.Windows.Forms.Label();
-      this.label2 = new System.Windows.Forms.Label();
-      this.l2 = new System.Windows.Forms.Label();
-      this.l3 = new System.Windows.Forms.Label();
       this.lDatei = new System.Windows.Forms.Label();
-      this.l5 = new System.Windows.Forms.Label();
-      this.l4 = new System.Windows.Forms.Label();
-      this.label5 = new System.Windows.Forms.Label();
-      this.l7 = new System.Windows.Forms.Label();
-      this.l6 = new System.Windows.Forms.Label();
-      this.label6 = new System.Windows.Forms.Label();
-      this.l9 = new System.Windows.Forms.Label();
-      this.l8 = new System.Windows.Forms.Label();
-      this.label7 = new System.Windows.Forms.Label();
-      this.l11 = new System.Windows.Forms.Label();
-      this.l10 = new System.Windows.Forms.Label();
-      this.label10 = new System.Windows.Forms.Label();
+      this.groupBox1 = new System.Windows.Forms.GroupBox();
+      this.tbBytes = new System.Windows.Forms.TextBox();
+      this.groupBox2 = new System.Windows.Forms.GroupBox();
+      this.tbShorts = new System.Windows.Forms.TextBox();
       this.toolStrip1.SuspendLayout();
+      this.groupBox1.SuspendLayout();
+      this.groupBox2.SuspendLayout();
       this.SuspendLayout();
       // 
       // toolStrip1
@@ -66,7 +57,7 @@
       this.toolStrip1.Location = new System.Drawing.Point(0, 0);
       this.toolStrip1.Name = "toolStrip1";
       this.toolStrip1.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
-      this.toolStrip1.Size = new System.Drawing.Size(391, 31);
+      this.toolStrip1.Size = new System.Drawing.Size(391, 27);
       this.toolStrip1.TabIndex = 0;
       this.toolStrip1.Text = "toolStrip1";
       // 
@@ -135,33 +126,6 @@
       this.lStart.TabIndex = 2;
       this.lStart.Text = "?";
       // 
-      // label2
-      // 
-      this.label2.AutoSize = true;
-      this.label2.Location = new System.Drawing.Point(5, 91);
-      this.label2.Name = "label2";
-      this.label2.Size = new System.Drawing.Size(54, 27);
-      this.label2.TabIndex = 3;
-      this.label2.Text = "2.:";
-      // 
-      // l2
-      // 
-      this.l2.AutoSize = true;
-      this.l2.Location = new System.Drawing.Point(99, 91);
-      this.l2.Name = "l2";
-      this.l2.Size = new System.Drawing.Size(26, 27);
-      this.l2.TabIndex = 4;
-      this.l2.Text = "?";
-      // 
-      // l3
-      // 
-      this.l3.AutoSize = true;
-      this.l3.Location = new System.Drawing.Point(99, 118);
-      this.l3.Name = "l3";
-      this.l3.Size = new System.Drawing.Size(26, 27);
-      this.l3.TabIndex = 5;
-      this.l3.Text = "?";
-      // 
       // lDatei
       // 
       this.lDatei.AutoSize = true;
@@ -171,114 +135,47 @@
       this.lDatei.TabIndex = 6;
       this.lDatei.Text = "?";
       // 
-      // l5
+      // groupBox1
       // 
-      this.l5.AutoSize = true;
-      this.l5.Location = new System.Drawing.Point(99, 174);
-      this.l5.Name = "l5";
-      this.l5.Size = new System.Drawing.Size(26, 27);
-      this.l5.TabIndex = 9;
-      this.l5.Text = "?";
+      this.groupBox1.AutoSize = true;
+      this.groupBox1.Controls.Add(this.tbBytes);
+      this.groupBox1.Location = new System.Drawing.Point(10, 94);
+      this.groupBox1.Name = "groupBox1";
+      this.groupBox1.Size = new System.Drawing.Size(149, 278);
+      this.groupBox1.TabIndex = 19;
+      this.groupBox1.TabStop = false;
+      this.groupBox1.Text = "Byte";
       // 
-      // l4
+      // tbBytes
       // 
-      this.l4.AutoSize = true;
-      this.l4.Location = new System.Drawing.Point(99, 147);
-      this.l4.Name = "l4";
-      this.l4.Size = new System.Drawing.Size(26, 27);
-      this.l4.TabIndex = 8;
-      this.l4.Text = "?";
+      this.tbBytes.Dock = System.Windows.Forms.DockStyle.Fill;
+      this.tbBytes.Location = new System.Drawing.Point(3, 30);
+      this.tbBytes.Multiline = true;
+      this.tbBytes.Name = "tbBytes";
+      this.tbBytes.Size = new System.Drawing.Size(143, 245);
+      this.tbBytes.TabIndex = 1;
+      this.tbBytes.Text = "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
       // 
-      // label5
+      // groupBox2
       // 
-      this.label5.AutoSize = true;
-      this.label5.Location = new System.Drawing.Point(5, 147);
-      this.label5.Name = "label5";
-      this.label5.Size = new System.Drawing.Size(54, 27);
-      this.label5.TabIndex = 7;
-      this.label5.Text = "3.:";
+      this.groupBox2.AutoSize = true;
+      this.groupBox2.Controls.Add(this.tbShorts);
+      this.groupBox2.Location = new System.Drawing.Point(165, 94);
+      this.groupBox2.Name = "groupBox2";
+      this.groupBox2.Size = new System.Drawing.Size(149, 281);
+      this.groupBox2.TabIndex = 20;
+      this.groupBox2.TabStop = false;
+      this.groupBox2.Text = "Short";
       // 
-      // l7
+      // tbShorts
       // 
-      this.l7.AutoSize = true;
-      this.l7.Location = new System.Drawing.Point(99, 225);
-      this.l7.Name = "l7";
-      this.l7.Size = new System.Drawing.Size(26, 27);
-      this.l7.TabIndex = 12;
-      this.l7.Text = "?";
-      this.l7.Click += new System.EventHandler(this.label3_Click);
-      // 
-      // l6
-      // 
-      this.l6.AutoSize = true;
-      this.l6.Location = new System.Drawing.Point(99, 198);
-      this.l6.Name = "l6";
-      this.l6.Size = new System.Drawing.Size(26, 27);
-      this.l6.TabIndex = 11;
-      this.l6.Text = "?";
-      // 
-      // label6
-      // 
-      this.label6.AutoSize = true;
-      this.label6.Location = new System.Drawing.Point(5, 198);
-      this.label6.Name = "label6";
-      this.label6.Size = new System.Drawing.Size(54, 27);
-      this.label6.TabIndex = 10;
-      this.label6.Text = "4.:";
-      // 
-      // l9
-      // 
-      this.l9.AutoSize = true;
-      this.l9.Location = new System.Drawing.Point(99, 285);
-      this.l9.Name = "l9";
-      this.l9.Size = new System.Drawing.Size(26, 27);
-      this.l9.TabIndex = 15;
-      this.l9.Text = "?";
-      // 
-      // l8
-      // 
-      this.l8.AutoSize = true;
-      this.l8.Location = new System.Drawing.Point(99, 258);
-      this.l8.Name = "l8";
-      this.l8.Size = new System.Drawing.Size(26, 27);
-      this.l8.TabIndex = 14;
-      this.l8.Text = "?";
-      // 
-      // label7
-      // 
-      this.label7.AutoSize = true;
-      this.label7.Location = new System.Drawing.Point(5, 258);
-      this.label7.Name = "label7";
-      this.label7.Size = new System.Drawing.Size(54, 27);
-      this.label7.TabIndex = 13;
-      this.label7.Text = "5.:";
-      // 
-      // l11
-      // 
-      this.l11.AutoSize = true;
-      this.l11.Location = new System.Drawing.Point(99, 343);
-      this.l11.Name = "l11";
-      this.l11.Size = new System.Drawing.Size(26, 27);
-      this.l11.TabIndex = 18;
-      this.l11.Text = "?";
-      // 
-      // l10
-      // 
-      this.l10.AutoSize = true;
-      this.l10.Location = new System.Drawing.Point(99, 316);
-      this.l10.Name = "l10";
-      this.l10.Size = new System.Drawing.Size(26, 27);
-      this.l10.TabIndex = 17;
-      this.l10.Text = "?";
-      // 
-      // label10
-      // 
-      this.label10.AutoSize = true;
-      this.label10.Location = new System.Drawing.Point(5, 316);
-      this.label10.Name = "label10";
-      this.label10.Size = new System.Drawing.Size(54, 27);
-      this.label10.TabIndex = 16;
-      this.label10.Text = "6.:";
+      this.tbShorts.Dock = System.Windows.Forms.DockStyle.Fill;
+      this.tbShorts.Location = new System.Drawing.Point(3, 30);
+      this.tbShorts.Multiline = true;
+      this.tbShorts.Name = "tbShorts";
+      this.tbShorts.Size = new System.Drawing.Size(143, 248);
+      this.tbShorts.TabIndex = 1;
+      this.tbShorts.Text = "\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n\r\n";
       // 
       // AD4Main
       // 
@@ -286,22 +183,9 @@
       this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
       this.AutoSize = true;
       this.ClientSize = new System.Drawing.Size(391, 387);
-      this.Controls.Add(this.l11);
-      this.Controls.Add(this.l10);
-      this.Controls.Add(this.label10);
-      this.Controls.Add(this.l9);
-      this.Controls.Add(this.l8);
-      this.Controls.Add(this.label7);
-      this.Controls.Add(this.l7);
-      this.Controls.Add(this.l6);
-      this.Controls.Add(this.label6);
-      this.Controls.Add(this.l5);
-      this.Controls.Add(this.l4);
-      this.Controls.Add(this.label5);
+      this.Controls.Add(this.groupBox2);
+      this.Controls.Add(this.groupBox1);
       this.Controls.Add(this.lDatei);
-      this.Controls.Add(this.l3);
-      this.Controls.Add(this.l2);
-      this.Controls.Add(this.label2);
       this.Controls.Add(this.lStart);
       this.Controls.Add(this.label1);
       this.Controls.Add(this.toolStrip1);
@@ -311,6 +195,10 @@
       this.Text = "Form1";
       this.toolStrip1.ResumeLayout(false);
       this.toolStrip1.PerformLayout();
+      this.groupBox1.ResumeLayout(false);
+      this.groupBox1.PerformLayout();
+      this.groupBox2.ResumeLayout(false);
+      this.groupBox2.PerformLayout();
       this.ResumeLayout(false);
       this.PerformLayout();
 
@@ -326,22 +214,11 @@
     private System.Windows.Forms.ToolStripButton bAnalyse;
     private System.Windows.Forms.Label label1;
     private System.Windows.Forms.Label lStart;
-    private System.Windows.Forms.Label label2;
-    private System.Windows.Forms.Label l2;
-    private System.Windows.Forms.Label l3;
     private System.Windows.Forms.Label lDatei;
-    private System.Windows.Forms.Label l5;
-    private System.Windows.Forms.Label l4;
-    private System.Windows.Forms.Label label5;
-    private System.Windows.Forms.Label l7;
-    private System.Windows.Forms.Label l6;
-    private System.Windows.Forms.Label label6;
-    private System.Windows.Forms.Label l9;
-    private System.Windows.Forms.Label l8;
-    private System.Windows.Forms.Label label7;
-    private System.Windows.Forms.Label l11;
-    private System.Windows.Forms.Label l10;
-    private System.Windows.Forms.Label label10;
+    private System.Windows.Forms.GroupBox groupBox1;
+    private System.Windows.Forms.TextBox tbBytes;
+    private System.Windows.Forms.GroupBox groupBox2;
+    private System.Windows.Forms.TextBox tbShorts;
   }
 }
 
